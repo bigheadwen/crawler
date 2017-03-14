@@ -45,13 +45,13 @@ if __name__ == '__main__':
     #assert ""
 
     elem_passwd = driver.find_element_by_id('passwd')
-    elem_passwd.send_keys('syg43980')
+    elem_passwd.send_keys('xxxxx')
 
     elem_code = driver.find_element_by_id('rmNum')
     elem_code.send_keys('1')
 
     elem_user = driver.find_element_by_id('username')
-    elem_user.send_keys('syg4398')
+    elem_user.send_keys('xxxxx')
     #
     time.sleep(3)
     elem_code_img = driver.find_element_by_id('vPic')
